@@ -1,0 +1,33 @@
+body {
+  margin: 0 auto;
+    max-width: 1024px;
+
+}
+table {
+  border-collapse: collapse;
+  border: .5px solid #ccc;
+  margin: auto;
+}
+table td {
+  padding: 1.5em;
+  /*border: 1px solid #000;*/
+}
+
+.table.row {
+  max-height: 3em;
+}
+
+.field {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.field:hover{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.field.selected {
+  background-color: rgba(255, 0, 0, 0.5);;
+}
+.field.selected:hover {
+  background-color: rgba(255, 0, 0, 0.7);
+}
